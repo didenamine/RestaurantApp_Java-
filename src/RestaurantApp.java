@@ -45,7 +45,7 @@ public class RestaurantApp extends JFrame implements Serializable {
                 super.paintComponent(g);
                 try {
                   
-                    Image img = new ImageIcon("src/resources/restaurant_logo.png").getImage();
+                    Image img = new ImageIcon("RestaurantApp_Java-\\src\\resources\\restaurant_logo.png").getImage();
                     double scale = Math.min((double) getWidth() / img.getWidth(null),(double) getHeight() / img.getHeight(null));
                     int newWidth = (int) (img.getWidth(null) * scale);
                     int newHeight = (int) (img.getHeight(null) * scale);
